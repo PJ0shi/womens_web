@@ -19,6 +19,65 @@ p{
     color: gainsboro;
 }
 
+header, nav{
+    /* Set padding and margin */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1rem;
+    
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    background-color: purple;
+    padding: 10px;
+    color: aliceblue;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img{
+    width: 50%;
+    padding-bottom: 40px;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 20px;
+}
+
+img.main-pic{
+    width: auto;
+    padding-bottom: 40px;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 5%;
+    margin: 5px;
+    padding: 20px;
+    
+}
+
+img.literature:hover{
+    filter: grayscale(100%);
+}
+
+img.main-pic:hover{
+    filter: grayscale(100%);
+}
 
 footer{
     background-color: black;
@@ -29,6 +88,7 @@ footer{
 a{
     color: pink;
 }
+
 
 .overlay {
     position: absolute;
@@ -54,9 +114,6 @@ a{
     padding: 20px;
   }
 
-.image{
-    width: 50%;
-}
 
 hr{
     color: white;
